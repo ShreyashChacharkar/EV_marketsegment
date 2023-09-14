@@ -8,11 +8,11 @@ The Indian electric vehicle (EV) market has experienced rapid growth in recent y
 **Market Analysis:**
 *	Electric Vehicle Sales Growth: Electric vehicle (EV) sales in India remained relatively stagnant until 2016. After that, there was a significant uptick in growth, with a remarkable Compound Annual Growth Rate (CAGR) of 40.3%.
  
-[Fig 1: Year wise Electric vehicle production](images/Year_Wise_electric_vehicle_sale.png)
+![Fig 1: Year wise Electric vehicle production](images/Year_Wise_electric_vehicle_sale.png)
 
 *	Seasonal Sales Peaks: Notably, the highest EV sales occur typically in the months of January, February, March, July, and September. Mainly due Indian customer behaviour at festival.
  
-[Fig 2 . Electric vehicle sales](month_wise_sell.png)
+![Fig 2 . Electric vehicle sales](month_wise_sell.png)
 
 
 *	Government's FAME Scheme: The Government of India initiated the Faster Adoption and Manufacturing of (Hybrid &) Electric Vehicles (FAME) scheme with the aim of promoting the widespread adoption of electric and hybrid vehicles. FAME II, launched in April 2019 and designed to span three years, involved a substantial allocation of INR 10,000 crore (approximately USD 1.4 billion) to incentivize the production and adoption of EVs.
@@ -23,7 +23,7 @@ The Indian electric vehicle (EV) market has experienced rapid growth in recent y
 
 *	Significance of the Delhi-Kolkata Freight Corridor: The Delhi-Kolkata freight corridor is of paramount importance within India's transportation landscape, facilitating the efficient movement of goods and commodities between the northern and eastern regions of the country. This corridor plays a critical role in the logistics and supply chain industry.
  
-[Fig3. Charging Station deployment at Expressway and Highway](chargin_station.png)
+![Fig3. Charging Station deployment at Expressway and Highway](chargin_station.png)
 
 *	Strategic Charging Infrastructure Deployment: The strategic deployment of a substantial number of EV charging stations along this corridor aligns harmoniously with the government's overarching objective of promoting electric mobility, particularly in the commercial and freight sectors. This is in response to the development and deployment of electric trucks and other heavy-duty vehicles designed to curtail emissions and operational expenses within the logistics industry.
 
