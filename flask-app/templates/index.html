@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="static/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if title %}
+        <title>EV Prediction- {{ title }} </title>
+    {% else %}
+        <title>EV Prediction </title>
+    {% endif %}
+</head>
+<body>
+    <div class="container">
+        <h1>This is EV prediction web app</h1>
+        {% for post in posts %}
+            <h2>{{post.title}}</h2>
+            <p>By {{ post.author }} on {{ post.date_posted}}</p>
+            <p> {{ post.content }}</p>
+        {% endfor %}
+        <h2>This suggest EV in India Based on your inputs</h2>
+        <div class="n-container">
+            <div class="input-column">
+                <form action="/submit" method="post">
+                    <label for="Age">Age:</label><br>
+                    <input type="text" id="Age" name="Age" value="25
+                    " class="form-field"><br>
+                    <label for="Profession">Profession:</label><br>
+                    <select id="Profession" name="Profession" class="form-field">
+                        <option value="Business">Business</option>
+                        <option value="Salaried">Salaried</option>
+                    </select><br><br>
+                    <label for="Marrital Status">Marrital Status:</label><br>
+                    <select id="Marrital Status" name="Marrital Status" class="form-field">
+                        <option value="Single">Single</option>
+                        <option value="Married">Married</option>
+                    </select><br><br>
+                    <label for="Education">Education:</label><br>
+                    <select id="Education" name="Education" class="form-field">
+                        <option value="Graduate">Graduate</option>
+                        <option value="Post-Graduate">Post-Graduate</option>
+                    </select><br><br>
+                    <label for="No of Dependents">No of Dependents:</label><br>
+                    <input type="text" id="No of Dependents" name="No of Dependents" value="0" class="form-field"><br><br>
+
+                    <label for="Personal loan">Personal loan:</label><br>
+                    <select id="Personal loan" name="Personal loan" class="form-field">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select><br><br>
+
+                    <label for="House loan">House loan:</label><br>
+                    <select id="House loan" name="House loan" class="form-field">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select><br><br>
+
+                    <label for="Wife Working">Wife Working:</label><br>
+                    <select id="Wife Working" name="Wife Working" class="form-field">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select><br><br>
+
+                    <label for="Total Salary">Total Salary:</label><br>
+                    <input type="text" id="Total Salary" name="Total Salary" value="800000" class="form-field" ><br><br>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
+            <div class="prediction-section">
+                {% if img %}
+                <img src="{{ img }}" alt="Image">
+                {% endif %}
+                {% if result %}
+                <table border="2">
+                {% for key, value in result.items() %}
+                <tr>
+                    {# This is comment section #}
+                    <th>{{ key }}</th>
+                    <th>{{ value}}</th>
+                </tr>
+                {% endfor %}
+                </table>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

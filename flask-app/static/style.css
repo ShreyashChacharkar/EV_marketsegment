@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;}
+
+.n-container {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: flex-start; /* Align items to the top */
+    padding: 20px;
+}
+
+.input-column {
+    flex: 1; /* Occupy available space */
+    padding: 30px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+/* Style the right prediction section */
+.prediction-section {
+    flex: 1; /* Occupy available space */
+    padding: 20px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.form-field {
+    width: 150px;
+    font-size: 12px;
+    font-weight: 100; /* You can adjust the width as needed */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-label {
+    flex: 1;
+}
+
+.form-input {
+    font-size: 16px;
+}
