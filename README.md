@@ -1,6 +1,8 @@
 # EV market segmentation
 Name: Shreyash Banduji Chacharkar
+
 EV recommedation app:https://ev-segmentation.uc.r.appspot.com/
+
 Github link: https://github.com/ShreyashChacharkar/EV_marketsegment
 
 
